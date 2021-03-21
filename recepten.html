@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <title> Contactpagina </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header class="purple-header">
+        <h1 class="font-header">Even voorstellen</h1>
+        <nav class="navigation">
+            <ul class="navigation-display">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Over mij</a></li>
+                <li><a href="https://twitter.com/TheTwitSmith" target="blanc">Twitter</a></li>
+                <li><a href="https://www.facebook.com/theo.smith.12/" target="blanc">Facebook</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="recepten.html">Recepten</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form name="contact" class="formulier-contact" method="POST" data-netlify="true">
+            <p>
+                <label> Naam
+                    <input type="name" name="name" />
+                </label>
+            </p>
+            <p>
+                <label>e-mailadres
+                    <input type="email" name="email" />
+                </label>
+            </p>
+            <p>
+                <label>Mijn favoriete recept
+                    <textarea name="recept"></textarea>
+                </label>
+            </p>
+            <p>
+                <input type="submit" />
+            </p>
+        </form>
+
+    </main>
+    <footer class="dark-purple-footer">
+        <p>Je kunt ook een mail sturen naar <a href="mailto:t.smith5@upcmail.nl">Theo Smith</a></p>
+    </footer>
+</body>
+
+</html>
